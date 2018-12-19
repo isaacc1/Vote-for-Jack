@@ -1,0 +1,52 @@
+body{
+    background-size:cover;
+    background:url(https://i.pinimg.com/originals/0c/97/0c/0c970c8b7986fdb4243c98126c6f9bd0.jpg);
+    border:ridge black 15px;
+    margin:10px;
+    padding:10px;
+    }
+    .quota{
+        font-family: 'Major Mono Display', monospace;
+        background-color:rgba(244, 131, 66, .6);
+        border:groove orange 12px;
+        }
+.container{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+    width:40%;
+    }
+.item1{
+    display:flex;
+    border:ridge red 13px;
+    padding:12px;
+    background-color:rgba(66, 80, 244, .5);
+    }
+.item2{
+    display:flex;
+    border:ridge red 13px;
+    padding:12px;
+    margin:4px;
+    background-color:rgba(66, 80, 244, .5);
+}
+.item3{
+    display:flex;
+    padding:13px;
+    margin:;
+    border:ridge red 13px;
+    background-color:rgba(66, 80, 244, .5);
+    }
+#button{
+    border:ridge darkmagenta 5px;
+    background-color:rgba(5, 173, 38, 1.5);
+    color:lightcyan;
+    width:410px;
+    }
+.apple{
+    display:flex;
+    justify-content:center;
+    }
+img{
+    width:200px;
+    height:200px;
+    }
